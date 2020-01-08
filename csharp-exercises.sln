@@ -18,7 +18,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "Gradebook
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{1BA97590-1516-44AC-9649-5B6D7435A3EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle", "..\..\..\CGWinter2019repos\LotusMel\CoderGirl-Rectangle\Rectangle\Rectangle.csproj", "{04E5158B-060E-4EF4-9AB4-B28B96870231}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRectangle", "MyRectangle\MyRectangle.csproj", "{E1813A31-1639-4CF8-BAC5-2B48AEB9A4CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,10 +58,10 @@ Global
 		{1BA97590-1516-44AC-9649-5B6D7435A3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA97590-1516-44AC-9649-5B6D7435A3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA97590-1516-44AC-9649-5B6D7435A3EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04E5158B-060E-4EF4-9AB4-B28B96870231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04E5158B-060E-4EF4-9AB4-B28B96870231}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04E5158B-060E-4EF4-9AB4-B28B96870231}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04E5158B-060E-4EF4-9AB4-B28B96870231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1813A31-1639-4CF8-BAC5-2B48AEB9A4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1813A31-1639-4CF8-BAC5-2B48AEB9A4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1813A31-1639-4CF8-BAC5-2B48AEB9A4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1813A31-1639-4CF8-BAC5-2B48AEB9A4CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
