@@ -18,7 +18,7 @@ namespace GasMileage
 
             string gas = Console.ReadLine();
             float gallons = float.Parse(gas);
-
+           
             
 
             float mpg = miles / gallons;
