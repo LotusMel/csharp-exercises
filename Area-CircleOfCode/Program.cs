@@ -8,26 +8,29 @@ namespace Area_CircleOfCode
         {
             Console.WriteLine("Please enter the radius of your circle: ");
             double myRadius = double.Parse(Console.ReadLine());
-            AreaOfCircle(myRadius);
+            Area.AreaOfCircle(myRadius);
         }
 
-        public static void AreaOfCircle(double radius)
+        public class Area
         {
-            double area = Math.PI * (radius * radius);
-            if (radius < 0)
+            public static void AreaOfCircle(double radius)
             {
-               
-                Console.WriteLine("Sorry. You must use a positive number. Try again: ");
-                double tryAgain = double.Parse(Console.ReadLine());
-                AreaOfCircle(tryAgain);
-            }
-            else
-            {
-                Console.Write("The area of your circle is " + area);
-                Console.ReadLine();
-            }
+                double area = Math.PI * (radius * radius);
+                if (radius < 0)
+                {
 
-            
+                    Console.WriteLine("Sorry. You must use a positive number. Try again: ");
+                    double tryAgain = double.Parse(Console.ReadLine());
+                    AreaOfCircle(tryAgain);
+                }
+                else
+                {
+                    Console.Write("The area of your circle is " + area);
+                    Console.ReadLine();
+                }
+
+
+            }
         }
     }
 }
