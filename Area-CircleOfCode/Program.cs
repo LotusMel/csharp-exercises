@@ -16,18 +16,21 @@ namespace Area_CircleOfCode
             public static void AreaOfCircle(double radius)
             {
                 double area = Math.PI * (radius * radius);
+                while (radius > 0)
+                {
+                    Console.Write("The area of your circle is " + area);
+                    Console.ReadLine();
+                    break;
+                }
+
                 if (radius < 0)
                 {
-
                     Console.WriteLine("Sorry. You must use a positive number. Try again: ");
                     double tryAgain = double.Parse(Console.ReadLine());
                     AreaOfCircle(tryAgain);
                 }
-                else
-                {
-                    Console.Write("The area of your circle is " + area);
-                    Console.ReadLine();
-                }
+                
+                
 
 
             }
