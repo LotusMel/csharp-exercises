@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGradebookList", "..\..\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerList", "IntegerList\IntegerList.csproj", "{729C3828-D083-4BA8-8B5B-6A8D1127FC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringList", "StringList\StringList.csproj", "{AF4C0765-73A7-440E-B9C1-A9B8DB27392C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,10 @@ Global
 		{729C3828-D083-4BA8-8B5B-6A8D1127FC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{729C3828-D083-4BA8-8B5B-6A8D1127FC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{729C3828-D083-4BA8-8B5B-6A8D1127FC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4C0765-73A7-440E-B9C1-A9B8DB27392C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4C0765-73A7-440E-B9C1-A9B8DB27392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4C0765-73A7-440E-B9C1-A9B8DB27392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4C0765-73A7-440E-B9C1-A9B8DB27392C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
