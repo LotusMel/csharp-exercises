@@ -46,10 +46,10 @@ namespace GradebookArray
             for (int j = 0; j < numStudents; j++)
             {
                 roster.AppendFormat("Student: {0}\nGrade: {1}\n\n", students[j], grades[j]);
-                
+                sum += grades[j];
             }
+
             Console.WriteLine(roster);
-            sum += grades[j];
             double avg = sum / numStudents;
             Console.WriteLine("Average grade: " + avg);
 
