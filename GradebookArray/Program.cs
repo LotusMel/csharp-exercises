@@ -37,7 +37,7 @@ namespace GradebookArray
             }
 
             // Print class roster, summing grades as we go
-            Console.WriteLine("\nClass roster:");
+            Console.WriteLine("\nClass roster:\n");
 
             StringBuilder roster = new StringBuilder(30);
 
@@ -45,7 +45,7 @@ namespace GradebookArray
 
             for (int j = 0; j < numStudents; j++)
             {
-                roster.AppendFormat("Student: {0}  Grade: {1}", students[j], grades[j] +"\n");
+                roster.AppendFormat("Student: {0}\nGrade: {1}\n\n", students[j], grades[j]);
                 sum += grades[j];
             }
             Console.WriteLine(roster);
