@@ -26,7 +26,7 @@ namespace StudentIdDict
             }
             while (idNumber > 0);
 
-            // Print roster
+            
             Console.WriteLine("\nClass roster:");
             foreach (KeyValuePair<int, string> myStudent in myStudents)
             {
