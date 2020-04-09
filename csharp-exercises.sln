@@ -30,9 +30,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerList", "IntegerList\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringList", "StringList\StringList.csproj", "{AF4C0765-73A7-440E-B9C1-A9B8DB27392C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntArray", "IntArray\IntArray.csproj", "{26CDEAD3-725D-48A2-BB7D-22D185CA92C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntArray", "IntArray\IntArray.csproj", "{26CDEAD3-725D-48A2-BB7D-22D185CA92C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentIdDict", "StudentIdDict\StudentIdDict.csproj", "{118DB5AD-3ADF-4366-8BB3-2116AB4CAE73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentIdDict", "StudentIdDict\StudentIdDict.csproj", "{118DB5AD-3ADF-4366-8BB3-2116AB4CAE73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "Restaurant\Restaurant.csproj", "{83A8FF6A-81F3-40BE-8854-2BF7446C57B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "School\School.csproj", "{8FD15144-96CB-4B42-9B51-961D9B8D4B62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +108,14 @@ Global
 		{118DB5AD-3ADF-4366-8BB3-2116AB4CAE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118DB5AD-3ADF-4366-8BB3-2116AB4CAE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118DB5AD-3ADF-4366-8BB3-2116AB4CAE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A8FF6A-81F3-40BE-8854-2BF7446C57B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A8FF6A-81F3-40BE-8854-2BF7446C57B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A8FF6A-81F3-40BE-8854-2BF7446C57B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A8FF6A-81F3-40BE-8854-2BF7446C57B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD15144-96CB-4B42-9B51-961D9B8D4B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD15144-96CB-4B42-9B51-961D9B8D4B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD15144-96CB-4B42-9B51-961D9B8D4B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD15144-96CB-4B42-9B51-961D9B8D4B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
